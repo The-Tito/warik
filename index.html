@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warik · Visualizador de algoritmos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo">war<em>ik</em><span class="cursor"></span></div>
+  <div class="tagline">ejecuta tu Python paso a paso · Top Interview 150</div>
+  <div class="spacer"></div>
+  <div id="pyStatus"><span class="dot"></span><span id="pyStatusTxt">Python: sin cargar</span></div>
+</header>
+
+<main>
+  <section class="left">
+    <div class="examples">
+      <div class="lbl">Ejemplos del Top 150</div>
+      <div class="chips" id="chips"></div>
+    </div>
+    <div class="editors">
+      <div class="edbox" id="edCode">
+        <div class="lbl"><span>Tu solución</span><span class="hint">List, ListNode, TreeNode ya están definidos</span></div>
+        <textarea id="taCode" spellcheck="false"></textarea>
+      </div>
+      <div class="edbox" id="edTest">
+        <div class="lbl"><span>Caso de prueba</span><span class="hint">define el input y llama a Solution()</span></div>
+        <textarea id="taTest" spellcheck="false"></textarea>
+      </div>
+      <div id="codeView"></div>
+      <div class="runrow">
+        <button id="btnRun">▶ Ejecutar</button>
+        <button id="btnEdit">✎ Editar código</button>
+        <span class="runmsg" id="runMsg"></span>
+      </div>
+    </div>
+  </section>
+
+  <section class="right">
+    <div id="controls">
+      <button class="cbtn" id="btnFirst" title="Inicio">⏮</button>
+      <button class="cbtn" id="btnPrev" title="Paso atrás (←)">◀</button>
+      <button class="cbtn" id="btnPlay" title="Reproducir (espacio)">▶</button>
+      <button class="cbtn" id="btnNext" title="Paso adelante (→)">▶▶</button>
+      <button class="cbtn" id="btnLast" title="Final">⏭</button>
+      <input type="range" id="slider" min="0" max="0" value="0">
+      <span id="stepInfo"></span>
+      <select id="speed">
+        <option value="0.5">0.5×</option>
+        <option value="1" selected>1×</option>
+        <option value="2">2×</option>
+        <option value="4">4×</option>
+        <option value="8">8×</option>
+      </select>
+      <span class="kbd-hint">← → espacio</span>
+    </div>
+    <div id="vizWrap">
+      <div id="placeholder">
+        <h2>¿Cómo funciona?</h2>
+        1. Pega tu solución de LeetCode (o elige un <span class="kw">ejemplo</span>).<br>
+        2. En el caso de prueba, define el input y llama a <span class="kw">Solution()</span>.<br>
+        3. Pulsa <span class="kw">▶ Ejecutar</span> y avanza paso a paso: verás los arrays,
+        punteros, diccionarios, matrices, stacks, listas enlazadas y árboles cambiando en vivo.<br><br>
+        <span style="color:var(--faint)">La primera ejecución descarga Python (Pyodide) — necesita internet y tarda unos segundos. Después todo corre local en tu navegador.</span>
+      </div>
+      <div id="frameHead"><span id="funcName"></span><span id="evtBadge"></span></div>
+      <div id="retBanner"></div>
+      <div id="errBanner"></div>
+      <div id="vizArea"></div>
+      <div class="vcard" id="consoleCard">
+        <div class="vname">consola <span class="vtype">print()</span></div>
+        <div id="consoleOut"></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js"></script>
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>

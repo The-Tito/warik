@@ -1,0 +1,8657 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`tracer (snapshot por ejemplo) > Max Depth Tree (recursión) 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 10,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 11,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 5,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 5,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 6,
+      "locals": {
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            9,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 1,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 6,
+      "locals": {
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 5,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 5,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 6,
+      "locals": {
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            15,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 1,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 6,
+      "locals": {
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 5,
+      "locals": {
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 6,
+      "locals": {
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "maxDepth",
+      "line": 2,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 3,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 4,
+      "locals": {
+        "root": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 0,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            7,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 1,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            20,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 2,
+      },
+    },
+    {
+      "event": "line",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "maxDepth",
+      "line": 7,
+      "locals": {
+        "der": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "izq": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 3,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 12,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 12,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "root": {
+          "t": "tree",
+          "v": [
+            3,
+            9,
+            20,
+            null,
+            null,
+            15,
+            7,
+          ],
+        },
+      },
+      "out": 15,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "profundidad: 3
+",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Merge Sorted Array 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 14,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 15,
+      "locals": {
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 16,
+      "locals": {
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "merge",
+      "line": 2,
+      "locals": {
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 3,
+      "locals": {
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 9,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            0,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 10,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 11,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 4,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 4,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 9,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            0,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 4,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 10,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 4,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 11,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 4,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            0,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 7,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 11,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 2,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 2,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 9,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 2,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 10,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            2,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 2,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 11,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": -1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            2,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 2,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": -1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            2,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 1,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "merge",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": -1,
+        },
+        "m": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            2,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+        "w": {
+          "t": "scalar",
+          "v": 1,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 16,
+      "locals": {
+        "nums1": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            2,
+            3,
+            5,
+            6,
+          ],
+        },
+        "nums2": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            6,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Remove Duplicates II 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 11,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 12,
+      "locals": {
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "removeDuplicates",
+      "line": 2,
+      "locals": {
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 3,
+      "locals": {
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 4,
+      "locals": {
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 7,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 7,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 3,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            2,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 7,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 4,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "removeDuplicates",
+      "line": 8,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "removeDuplicates",
+      "line": 8,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "k": {
+          "t": "scalar",
+          "v": 5,
+        },
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": 5,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 13,
+      "locals": {
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+        "resultado": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 13,
+      "locals": {
+        "nums": {
+          "len": 6,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            1,
+            2,
+            2,
+            3,
+            3,
+          ],
+        },
+        "resultado": {
+          "t": "scalar",
+          "v": 5,
+        },
+      },
+      "out": 6,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "k = 5
+",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Reverse Linked List 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 13,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 14,
+      "locals": {
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "reverseList",
+      "line": 2,
+      "locals": {
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 3,
+      "locals": {
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 4,
+      "locals": {
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "prev": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "prev": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 6,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "prev": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 7,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "prev": {
+          "t": "scalar",
+          "v": null,
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 8,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "t": "scalar",
+          "v": null,
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 9,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 6,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 7,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 8,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 9,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 6,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 7,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 8,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 9,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 6,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 7,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 8,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 9,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 6,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 7,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 8,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 9,
+      "locals": {
+        "curr": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 5,
+      "locals": {
+        "curr": {
+          "t": "scalar",
+          "v": null,
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "reverseList",
+      "line": 10,
+      "locals": {
+        "curr": {
+          "t": "scalar",
+          "v": null,
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "reverseList",
+      "line": 10,
+      "locals": {
+        "curr": {
+          "t": "scalar",
+          "v": null,
+        },
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "prev": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+        "siguiente": {
+          "t": "scalar",
+          "v": null,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "cycle": false,
+        "t": "linkedlist",
+        "trunc": false,
+        "v": [
+          5,
+          4,
+          3,
+          2,
+          1,
+        ],
+      },
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 14,
+      "locals": {
+        "head": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            1,
+          ],
+        },
+        "resultado": {
+          "cycle": false,
+          "t": "linkedlist",
+          "trunc": false,
+          "v": [
+            5,
+            4,
+            3,
+            2,
+            1,
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Rotate Image (matriz) 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 11,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 12,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 13,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 11,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 14,
+      "locals": {
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "rotate",
+      "line": 2,
+      "locals": {
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 3,
+      "locals": {
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 4,
+      "locals": {
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              2,
+              3,
+            ],
+            [
+              4,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              3,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              3,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              7,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              3,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 0,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              3,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              3,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 6,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              6,
+            ],
+            [
+              3,
+              8,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 1,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 5,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 4,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 7,
+      "locals": {
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 8,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            1,
+            4,
+            7,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              1,
+              4,
+              7,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 7,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            7,
+            4,
+            1,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 8,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            2,
+            5,
+            8,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              2,
+              5,
+              8,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 7,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            8,
+            5,
+            2,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              8,
+              5,
+              2,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 8,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            3,
+            6,
+            9,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              8,
+              5,
+              2,
+            ],
+            [
+              3,
+              6,
+              9,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "rotate",
+      "line": 7,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            9,
+            6,
+            3,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              8,
+              5,
+              2,
+            ],
+            [
+              9,
+              6,
+              3,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "rotate",
+      "line": 7,
+      "locals": {
+        "fila": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            9,
+            6,
+            3,
+          ],
+        },
+        "i": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "j": {
+          "t": "scalar",
+          "v": 2,
+        },
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              8,
+              5,
+              2,
+            ],
+            [
+              9,
+              6,
+              3,
+            ],
+          ],
+        },
+        "n": {
+          "t": "scalar",
+          "v": 3,
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 14,
+      "locals": {
+        "matrix": {
+          "t": "matrix",
+          "v": [
+            [
+              7,
+              4,
+              1,
+            ],
+            [
+              8,
+              5,
+              2,
+            ],
+            [
+              9,
+              6,
+              3,
+            ],
+          ],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Valid Anagram (dict) 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 17,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "isAnagram",
+      "line": 2,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 3,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 5,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "count": {
+          "len": 0,
+          "t": "dict",
+          "trunc": false,
+          "v": [],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 0,
+          "t": "dict",
+          "trunc": false,
+          "v": [],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "n",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "n",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              1,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              0,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 13,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 5,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "n",
+              0,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "n",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              3,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              0,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 13,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 4,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "g",
+              0,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "g",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              2,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              0,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 13,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "r",
+              0,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "r",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              1,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              0,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 13,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 2,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "a",
+              0,
+            ],
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "a",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 9,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "m",
+              1,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 12,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "m",
+              0,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 13,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 1,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              "m",
+              0,
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 8,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 0,
+          "t": "dict",
+          "trunc": false,
+          "v": [],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isAnagram",
+      "line": 14,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 0,
+          "t": "dict",
+          "trunc": false,
+          "v": [],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "isAnagram",
+      "line": 14,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "m",
+        },
+        "count": {
+          "len": 0,
+          "t": "dict",
+          "trunc": false,
+          "v": [],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "anagram",
+        },
+        "t": {
+          "t": "scalar",
+          "v": "nagaram",
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": true,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 18,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": true,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 18,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": true,
+        },
+      },
+      "out": 5,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "True
+",
+  "truncated": false,
+}
+`;
+
+exports[`tracer (snapshot por ejemplo) > Valid Parentheses (stack) 1`] = `
+{
+  "error": null,
+  "frames": [
+    {
+      "event": "call",
+      "func": "<module>",
+      "line": 0,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 1,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "Solution",
+      "line": 2,
+      "locals": {},
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 14,
+      "locals": {},
+      "out": 0,
+    },
+    {
+      "event": "call",
+      "func": "isValid",
+      "line": 2,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 3,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 4,
+      "locals": {
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "(",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 10,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "(",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "(",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "[",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 10,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "[",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "[",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "{",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 10,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "{",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "{",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+            "{",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "}",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+            "{",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "}",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 3,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+            "{",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "}",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "]",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "]",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 2,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+            "[",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": "]",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 6,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": ")",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 7,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": ")",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 1,
+          "t": "list",
+          "trunc": false,
+          "v": [
+            "(",
+          ],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 5,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": ")",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "line",
+      "func": "isValid",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": ")",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "isValid",
+      "line": 11,
+      "locals": {
+        "c": {
+          "t": "scalar",
+          "v": ")",
+        },
+        "pares": {
+          "len": 3,
+          "t": "dict",
+          "trunc": false,
+          "v": [
+            [
+              ")",
+              "(",
+            ],
+            [
+              "]",
+              "[",
+            ],
+            [
+              "}",
+              "{",
+            ],
+          ],
+        },
+        "s": {
+          "t": "scalar",
+          "v": "([{}])",
+        },
+        "stack": {
+          "len": 0,
+          "t": "list",
+          "trunc": false,
+          "v": [],
+        },
+      },
+      "out": 0,
+      "ret": {
+        "t": "scalar",
+        "v": true,
+      },
+    },
+    {
+      "event": "line",
+      "func": "<module>",
+      "line": 15,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": true,
+        },
+      },
+      "out": 0,
+    },
+    {
+      "event": "return",
+      "func": "<module>",
+      "line": 15,
+      "locals": {
+        "resultado": {
+          "t": "scalar",
+          "v": true,
+        },
+      },
+      "out": 5,
+      "ret": {
+        "t": "scalar",
+        "v": null,
+      },
+    },
+  ],
+  "stdout": "True
+",
+  "truncated": false,
+}
+`;
