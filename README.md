@@ -78,8 +78,8 @@ un cambio **local y guiado** gracias al registry:
 2. Crea `src/viz/mitipo.ts` con una función pura `render` y regístrala con `registerViz(...)`.
 3. Impórtalo en `src/viz/index.ts` (una línea).
 
-Sin tocar nada más. Guía completa en `CONTRIBUTING.md` *(próximamente)*; mientras tanto,
-[`CLAUDE.md`](CLAUDE.md) tiene la arquitectura y el flujo de trabajo.
+Sin tocar nada más. **[`CONTRIBUTING.md`](CONTRIBUTING.md) tiene el tutorial completo**, con un
+ejemplo real de punta a punta y el checklist del PR.
 
 Seguimos **Gitflow**: las features nacen de `develop` (ver [`CLAUDE.md`](CLAUDE.md#flujo-de-trabajo-git--gitflow)).
 Si no sabes por dónde empezar, busca las issues etiquetadas **`good first issue`**.
