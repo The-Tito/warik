@@ -2,7 +2,7 @@
 
 # Warik
 
-### Ejecuta tus Algoritmos paso a paso y míralo por dentro 🐍
+### Ejecuta tus Algoritmos paso a paso y míralos por dentro 🐍
 
 Warik corre tu código Python **línea por línea** y dibuja en vivo cómo cambian tus
 estructuras de datos: arrays, punteros, diccionarios, árboles y más.
@@ -61,8 +61,8 @@ Tres piezas:
 
 1. **Tracer** (`src/tracer/tracer.py`) — instrumenta la ejecución con `sys.settrace` y serializa
    el estado de las variables a JSON en cada paso.
-2. **Runner** (`src/runner/`) — carga Pyodide y ejecuta el código → una lista de *frames* tipados.
-3. **Registry de visualizaciones** (`src/viz/`) — cada tipo de estructura tiene un *renderer* puro
+2. **Runner** (`src/runner/`) — carga Pyodide y ejecuta el código → una lista de _frames_ tipados.
+3. **Registry de visualizaciones** (`src/viz/`) — cada tipo de estructura tiene un _renderer_ puro
    que se auto-registra; un orquestador despacha cada variable a su renderer.
 
 Arquitectura en capas con dependencias en una sola dirección. El detalle está en
