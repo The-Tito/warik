@@ -2,7 +2,7 @@
 
 # Warik
 
-### Ejecuta tu Python paso a paso y velo por dentro 🐍
+### Ejecuta tus Algoritmos paso a paso y míralos por dentro 🐍
 
 Warik corre tu código Python **línea por línea** y dibuja en vivo cómo cambian tus
 estructuras de datos: arrays, punteros, diccionarios, árboles y más.
@@ -13,14 +13,9 @@ Pensado para practicar entrevistas (LeetCode · Top Interview 150).
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6.svg)](https://www.typescriptlang.org/)
 [![Stars](https://img.shields.io/github/stars/The-Tito/warik?style=social)](https://github.com/The-Tito/warik/stargazers)
 
-<!-- 🎥 GIF de la app en acción — es el elemento MÁS importante para una herramienta visual.
-     Graba un clip corto (ejecutar un ejemplo + avanzar paso a paso), guárdalo como
-     docs/demo.gif y descomenta la línea de abajo. -->
-<!-- ![Warik en acción](docs/demo.gif) -->
+<img src="docs/demo.gif" alt="Warik ejecutando merge() paso a paso: el código avanza línea por línea mientras los arrays y los punteros i, j, w se actualizan en vivo" width="800">
 
-> 🎬 **Demo en GIF — próximamente** (mientras tanto, corre `npm run dev` para verlo)
-
-**[▶ Probar Warik en vivo](https://the-tito.github.io/warik/)** &nbsp;·&nbsp; _(actualiza este enlace cuando despliegues)_
+**[▶ Probar Warik en vivo](https://warikapp.pages.dev/)**
 
 </div>
 
@@ -66,8 +61,8 @@ Tres piezas:
 
 1. **Tracer** (`src/tracer/tracer.py`) — instrumenta la ejecución con `sys.settrace` y serializa
    el estado de las variables a JSON en cada paso.
-2. **Runner** (`src/runner/`) — carga Pyodide y ejecuta el código → una lista de *frames* tipados.
-3. **Registry de visualizaciones** (`src/viz/`) — cada tipo de estructura tiene un *renderer* puro
+2. **Runner** (`src/runner/`) — carga Pyodide y ejecuta el código → una lista de _frames_ tipados.
+3. **Registry de visualizaciones** (`src/viz/`) — cada tipo de estructura tiene un _renderer_ puro
    que se auto-registra; un orquestador despacha cada variable a su renderer.
 
 Arquitectura en capas con dependencias en una sola dirección. El detalle está en
@@ -83,8 +78,8 @@ un cambio **local y guiado** gracias al registry:
 2. Crea `src/viz/mitipo.ts` con una función pura `render` y regístrala con `registerViz(...)`.
 3. Impórtalo en `src/viz/index.ts` (una línea).
 
-Sin tocar nada más. Guía completa en `CONTRIBUTING.md` *(próximamente)*; mientras tanto,
-[`CLAUDE.md`](CLAUDE.md) tiene la arquitectura y el flujo de trabajo.
+Sin tocar nada más. **[`CONTRIBUTING.md`](CONTRIBUTING.md) tiene el tutorial completo**, con un
+ejemplo real de punta a punta y el checklist del PR.
 
 Seguimos **Gitflow**: las features nacen de `develop` (ver [`CLAUDE.md`](CLAUDE.md#flujo-de-trabajo-git--gitflow)).
 Si no sabes por dónde empezar, busca las issues etiquetadas **`good first issue`**.
