@@ -2,7 +2,7 @@
 
 # Warik
 
-### Ejecuta tu Python paso a paso y velo por dentro 🐍
+### Ejecuta tus Algoritmos paso a paso y míralo por dentro 🐍
 
 Warik corre tu código Python **línea por línea** y dibuja en vivo cómo cambian tus
 estructuras de datos: arrays, punteros, diccionarios, árboles y más.
