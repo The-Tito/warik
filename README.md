@@ -13,12 +13,7 @@ Pensado para practicar entrevistas (LeetCode · Top Interview 150).
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6.svg)](https://www.typescriptlang.org/)
 [![Stars](https://img.shields.io/github/stars/The-Tito/warik?style=social)](https://github.com/The-Tito/warik/stargazers)
 
-<!-- 🎥 GIF de la app en acción — es el elemento MÁS importante para una herramienta visual.
-     Graba un clip corto (ejecutar un ejemplo + avanzar paso a paso), guárdalo como
-     docs/demo.gif y descomenta la línea de abajo. -->
-<!-- ![Warik en acción](docs/demo.gif) -->
-
-> 🎬 **Demo en GIF — próximamente** (mientras tanto, corre `npm run dev` para verlo)
+<img src="docs/demo.gif" alt="Warik ejecutando merge() paso a paso: el código avanza línea por línea mientras los arrays y los punteros i, j, w se actualizan en vivo" width="800">
 
 **[▶ Probar Warik en vivo](https://warikapp.pages.dev/)**
 
