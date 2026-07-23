@@ -56,8 +56,8 @@ un tipo sin renderer, la app no rompe (avisa por `console.warn`).
 El repositorio sigue **Gitflow**. Ramas de larga vida:
 
 - **`main`** — código estable y desplegable. **Solo** recibe merges de `release/*` y `hotfix/*`.
-  Cada merge a `main` es una versión y lleva su tag `vX.Y.Z`. El deploy (GitHub/Cloudflare Pages)
-  sale de aquí. **No se commitea directo a `main`.**
+  Cada merge a `main` es una versión y lleva su tag `vX.Y.Z`. El deploy (Cloudflare Pages —
+  production branch = `main`) sale de aquí. **No se commitea directo a `main`.**
 - **`develop`** — rama de integración. Base de todo el trabajo diario; siempre debe compilar y pasar tests.
 
 Ramas de apoyo (temporales):
@@ -68,7 +68,9 @@ Ramas de apoyo (temporales):
   `main` (con tag) y de vuelta a `develop`.
 - **`hotfix/<slug>`** — nace de `main` para un arreglo urgente; se mergea a `main` (con tag) y a `develop`.
 
-Merges de ramas de apoyo con **`--no-ff`** (preserva la topología de la rama).
+**La integración es por Pull Request en GitHub**, no por merges locales. Los PR se mergean con
+**"Create a merge commit"** (equivale a `--no-ff`: preserva la topología de la rama). Cada PR
+genera un preview URL de Cloudflare Pages para revisar el cambio antes de integrarlo.
 
 ### Convención de mensajes de commit — Conventional Commits
 
@@ -87,13 +89,35 @@ fix(runner): manejar timeout de carga de Pyodide
 docs: añadir guía de contribución
 ```
 
+Nota de shell: **no usar backticks dentro de `git commit -m "…"`** — zsh los ejecuta como comando y
+se come el texto. Usar comillas simples o el editor.
+
 ### Ciclo típico de una feature
 
 ```bash
 git switch develop && git pull
 git switch -c feature/viz-graph
 # … trabajo + commits …
-git switch develop && git merge --no-ff feature/viz-graph
+npm run build && npm test          # antes de publicar
+git push -u origin feature/viz-graph
+gh pr create --base develop        # PR a develop; revisar el preview de Pages
+```
+
+Tras mergear el PR en GitHub, limpiar en local:
+
+```bash
+git switch develop && git pull
 git branch -d feature/viz-graph
-git push origin develop
+```
+
+### Release
+
+Cuando `develop` está listo para una versión: PR de `develop` → `main`. Al mergearlo se dispara el
+deploy productivo; después se taggea la versión.
+
+```bash
+gh pr create --base main --head develop --title 'release: vX.Y.Z'
+# … mergear el PR …
+git switch main && git pull
+git tag -a vX.Y.Z -m 'vX.Y.Z' && git push origin vX.Y.Z
 ```
