@@ -20,7 +20,7 @@ Pensado para practicar entrevistas (LeetCode · Top Interview 150).
 
 > 🎬 **Demo en GIF — próximamente** (mientras tanto, corre `npm run dev` para verlo)
 
-**[▶ Probar Warik en vivo](https://the-tito.github.io/warik/)** &nbsp;·&nbsp; _(actualiza este enlace cuando despliegues)_
+**[▶ Probar Warik en vivo](https://warikapp.pages.dev/)**
 
 </div>
 
