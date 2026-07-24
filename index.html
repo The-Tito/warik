@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
 <title>Warik · Visualizador de algoritmos</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -42,11 +42,13 @@
 
   <section class="right">
     <div id="controls">
-      <button class="cbtn" id="btnFirst" title="Inicio">⏮</button>
-      <button class="cbtn" id="btnPrev" title="Paso atrás (←)">◀</button>
-      <button class="cbtn" id="btnPlay" title="Reproducir (espacio)">▶</button>
-      <button class="cbtn" id="btnNext" title="Paso adelante (→)">▶▶</button>
-      <button class="cbtn" id="btnLast" title="Final">⏭</button>
+      <div class="cbtns">
+        <button class="cbtn" id="btnFirst" title="Inicio">⏮</button>
+        <button class="cbtn" id="btnPrev" title="Paso atrás (←)">◀</button>
+        <button class="cbtn" id="btnPlay" title="Reproducir (espacio)">▶</button>
+        <button class="cbtn" id="btnNext" title="Paso adelante (→)">▶▶</button>
+        <button class="cbtn" id="btnLast" title="Final">⏭</button>
+      </div>
       <input type="range" id="slider" min="0" max="0" value="0">
       <span id="stepInfo"></span>
       <select id="speed">
