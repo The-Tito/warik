@@ -1,7 +1,7 @@
 {
   "name": "warik",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Visualizador de ejecución de Python paso a paso en el navegador (Pyodide)",
   "type": "module",
   "scripts": {
